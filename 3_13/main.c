@@ -70,7 +70,7 @@ void printroad(int n,int m,int** trailab,int nr)
     for(int i=0;i<n;i++)
     {
         for(int j=0;j<m;j++)
-            printf("%d",trailab[i][j]);
+            printf("%d ",trailab[i][j]);
         printf("\n");
     }
     printf("\n");
